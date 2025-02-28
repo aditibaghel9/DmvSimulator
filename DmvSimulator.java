@@ -4,13 +4,13 @@ public static void main(String[] args){
    
     DmvSimulator obj = new DmvSimulator();
 
+    final int randomNum = 200;
+
     System.out.println("Welcome to the Hamden DMV!");
-    final int randomNum = 100;
 
     System.out.println("Here is your number, please wait for your number to be called.");
-
-
-    int randomNumberInRange = (int)(Math.random() * 100);
+ 
+    int randomNumberInRange = (int)(Math.random() * 200);
     System.out.println(randomNumberInRange);
 
     int i = randomNumberInRange+1;
@@ -18,9 +18,9 @@ public static void main(String[] args){
     while(i != randomNumberInRange){
         
         System.out.println(i);
-        if(i>100){
+        if(i>=200){
 
-            i = 1;
+            i=0;
         }
         i++;
     }
