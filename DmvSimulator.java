@@ -24,6 +24,6 @@ public static void main(String[] args){
         }
         i++;
     }
-    System.out.println("You don't have your required paperwork");
+    System.out.println("Come back when you're not lazy enough to not even bring your documents!");
 }
 }
