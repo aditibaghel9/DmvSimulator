@@ -37,7 +37,7 @@ public static void main(String[] args){
 
     else{
 
-        System.out.println("Come back when you're not lazy enough to not even bring your documents!");
+        System.out.println("Come back when you're not lazy enough to not even bring your documents! Mwahaha!");
     }
     }
    
