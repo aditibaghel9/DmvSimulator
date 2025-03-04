@@ -40,5 +40,4 @@ public static void main(String[] args){
         System.out.println("Come back when you're not lazy enough to not even bring your documents!");
     }
     }
-   
 }
