@@ -15,6 +15,8 @@ public class DmvSimulator{
     
         int i = randomNumberInRange+1;
     
+        int chance = (int)(Math.random() *100);
+
         while(i != randomNumberInRange){
             
             System.out.println(i);
@@ -24,6 +26,17 @@ public class DmvSimulator{
             }
             i++;
         }
+
+    if (chance == 1) {
+
+        System.out.println("Good news! You have all your paper work, you are all set my friend!");
+        
+    }
+
+    else{
+
         System.out.println("Come back when you're not lazy enough to not even bring your documents! Mwahaha!");
     }
+    }
 }
+
